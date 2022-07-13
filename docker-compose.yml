@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  # Container de Banco MongoDB
+  # mongo:
+  #   container_name: sky-backend-test
+  #   restart: always
+  #   ports:
+  #     - 27017:27017
+  #   image: mongo
+  #   volumes:
+  #     - ./docker-volumes/...
+
+  # Container de Banco MySQL
+  # mysql:
+  #   container_name: mercafacil-api-mysql
+  #   image: mysql
+  #   restart: always
+  #   environment:
+  #     - MYSQL_ROOT_PASSWORD=admin
+  #     - MYSQL_DATABASE=admin
+  #     - MYSQL_USER=admin
+  #     - MYSQL_PASSWORD=admin
+  #     - MYSQL_ROOT_HOST=%
+  #   ports:
+  #     - '3306:3306'
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   volumes:
+  #     - ./docker-volumes/...
+
+  # Container de Banco Postgres
+  # postgresql:
+  #   container_name: mercafacil-api-postgres
+  #   image: postgres
+  #   restart: always
+  #   ports:
+  #     - '5432:5432'
+  #   environment:
+  #     POSTGRES_PASSWORD: 'admin'
+  #     POSTGRES_USER: 'admin'
+  #   volumes:
+  #     - ./docker-volumes/...
