@@ -1,6 +1,6 @@
-# Base Node.js Setup
+# Integração de  Teste Unitário
 
-Este é um projeto com configuração básica pra inicio de projetos Node.js. Este possui apenas dependências simples para construção de códigos que são o **CORE** da aplicação.
+Este é um teste de integração de testes unitários para a Dorper.app com configuração básica pra inicio de projetos Node.js que peguei do IglanCardeal.
 
 Algum dos pacotes inclusos:
 
@@ -35,4 +35,4 @@ Scripts padrão do projeto:
 }
 ```
 
-Versão do Node.js v16.0.0.
+Espero que goste Cardeal, grande abraço :D
